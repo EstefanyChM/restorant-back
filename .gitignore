@@ -1,0 +1,9 @@
+# Archivos de configuración con información sensible
+appsettings.json
+appsettings.Development.json
+
+# Carpetas generadas automáticamente
+bin/
+obj/
+logs/ApiWeb/firebase.json
+.vs/

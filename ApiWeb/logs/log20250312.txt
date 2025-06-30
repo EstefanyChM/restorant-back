@@ -1,0 +1,308 @@
+2025-03-12 21:15:50.886 -05:00 [INF] User profile is available. Using 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 21:15:55.915 -05:00 [INF] Executed DbCommand (230ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:15:56.067 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:15:56.165 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:15:56.262 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:15:59.082 -05:00 [INF] Now listening on: https://localhost:7063
+2025-03-12 21:15:59.082 -05:00 [INF] Now listening on: http://localhost:5121
+2025-03-12 21:15:59.201 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-12 21:15:59.201 -05:00 [INF] Hosting environment: Development
+2025-03-12 21:15:59.201 -05:00 [INF] Content root path: E:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-03-12 21:16:00.318 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-03-12 21:16:00.566 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 256.8411ms
+2025-03-12 21:16:00.688 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 21:16:00.692 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-03-12 21:16:00.693 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 5.1882ms
+2025-03-12 21:16:01.677 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 984.6889ms
+2025-03-12 21:16:04.557 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-03-12 21:16:04.645 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.6945ms
+2025-03-12 21:41:33.928 -05:00 [INF] User profile is available. Using 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 21:41:35.649 -05:00 [INF] Executed DbCommand (135ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:41:35.793 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:41:35.888 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:41:35.983 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:41:36.679 -05:00 [INF] Now listening on: https://localhost:7063
+2025-03-12 21:41:36.679 -05:00 [INF] Now listening on: http://localhost:5121
+2025-03-12 21:41:36.737 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-12 21:41:36.738 -05:00 [INF] Hosting environment: Development
+2025-03-12 21:41:36.738 -05:00 [INF] Content root path: E:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-03-12 21:41:37.521 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-03-12 21:41:37.672 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 162.3712ms
+2025-03-12 21:41:37.675 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 21:41:37.683 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 7.5832ms
+2025-03-12 21:41:37.689 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-03-12 21:41:37.720 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.6233ms
+2025-03-12 21:41:37.819 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-03-12 21:41:37.934 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.9271ms
+2025-03-12 21:46:07.170 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/AuthUser/login?esPersonal=true - null null
+2025-03-12 21:46:07.181 -05:00 [INF] CORS policy execution successful.
+2025-03-12 21:46:07.182 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/AuthUser/login?esPersonal=true - 204 null null 12.4397ms
+2025-03-12 21:46:07.186 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-12 21:46:07.187 -05:00 [INF] CORS policy execution successful.
+2025-03-12 21:46:07.345 -05:00 [WRN] Usuario no autenticado.
+2025-03-12 21:46:07.346 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-12 21:46:07.370 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-12 21:46:07.779 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-12 21:46:07.930 -05:00 [INF] Executed DbCommand (100ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-12 21:46:08.193 -05:00 [INF] Executed DbCommand (109ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 21:46:08.327 -05:00 [INF] Executed DbCommand (112ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 21:46:08.431 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:46:08.540 -05:00 [INF] Executed DbCommand (105ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-12 21:46:08.546 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-12 21:46:08.661 -05:00 [INF] Executed DbCommand (110ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 21:46:09.254 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 21:46:09.356 -05:00 [INF] Executed DbCommand (101ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 21:46:09.454 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 21:46:09.730 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1948.4396ms.
+2025-03-12 21:46:09.734 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-12 21:46:09.757 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 2385.1171ms
+2025-03-12 21:46:09.758 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-12 21:46:09.761 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 2575.1002ms
+2025-03-12 21:46:15.484 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-mesa - null null
+2025-03-12 21:46:15.487 -05:00 [INF] CORS policy execution successful.
+2025-03-12 21:46:15.487 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-mesa - 204 null null 3.4203ms
+2025-03-12 21:46:15.488 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-12 21:46:15.490 -05:00 [INF] CORS policy execution successful.
+2025-03-12 21:46:15.757 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-12 21:46:15.759 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-12 21:46:15.759 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-mesa - 401 0 null 270.9089ms
+2025-03-12 21:48:18.778 -05:00 [INF] User profile is available. Using 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 21:48:20.425 -05:00 [INF] Executed DbCommand (131ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:48:20.568 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:48:20.664 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:48:20.761 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 21:48:21.395 -05:00 [INF] Now listening on: https://localhost:7063
+2025-03-12 21:48:21.395 -05:00 [INF] Now listening on: http://localhost:5121
+2025-03-12 21:48:21.444 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-12 21:48:21.444 -05:00 [INF] Hosting environment: Development
+2025-03-12 21:48:21.444 -05:00 [INF] Content root path: E:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-03-12 21:48:22.123 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-03-12 21:48:22.272 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 160.7047ms
+2025-03-12 21:48:22.276 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 21:48:22.283 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 6.2042ms
+2025-03-12 21:48:22.289 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-03-12 21:48:22.319 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.6484ms
+2025-03-12 21:48:22.361 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-03-12 21:48:22.470 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.0713ms
+2025-03-12 21:48:45.945 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/PersonalEmpresa/SystemUser/null - null null
+2025-03-12 21:48:45.951 -05:00 [INF] CORS policy execution successful.
+2025-03-12 21:48:46.003 -05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)
+2025-03-12 21:48:46.006 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-12 21:48:46.007 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/PersonalEmpresa/SystemUser/null - 401 0 null 62.507ms
+2025-03-12 21:48:47.457 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-mesa - null null
+2025-03-12 21:48:47.461 -05:00 [INF] CORS policy execution successful.
+2025-03-12 21:48:47.461 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-mesa - 204 null null 4.0799ms
+2025-03-12 21:48:47.465 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-12 21:48:47.466 -05:00 [INF] CORS policy execution successful.
+2025-03-12 21:48:47.490 -05:00 [WRN] Usuario no autenticado.
+2025-03-12 21:48:47.492 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-12 21:48:47.501 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-12 21:48:47.741 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-12 21:48:51.318 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3574.3262ms.
+2025-03-12 21:48:51.322 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-12 21:48:51.384 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 3879.7041ms
+2025-03-12 21:48:51.384 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-12 21:48:51.386 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1069 application/json; charset=utf-8 3922.7017ms
+2025-03-12 22:55:04.147 -05:00 [INF] User profile is available. Using 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 22:55:05.959 -05:00 [INF] Executed DbCommand (153ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 22:55:06.104 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 22:55:06.200 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 22:55:06.297 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 22:55:06.931 -05:00 [INF] Now listening on: https://localhost:7063
+2025-03-12 22:55:06.931 -05:00 [INF] Now listening on: http://localhost:5121
+2025-03-12 22:55:06.983 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-12 22:55:06.983 -05:00 [INF] Hosting environment: Development
+2025-03-12 22:55:06.984 -05:00 [INF] Content root path: E:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-03-12 22:55:07.459 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-03-12 22:55:07.602 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 152.3691ms
+2025-03-12 22:55:07.606 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 22:55:07.613 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 6.7546ms
+2025-03-12 22:55:07.617 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-03-12 22:55:07.645 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.8494ms
+2025-03-12 22:55:07.683 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-03-12 22:55:07.790 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.6632ms
+2025-03-12 22:55:20.516 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/AuthUser/login?esPersonal=true - null null
+2025-03-12 22:55:20.521 -05:00 [INF] CORS policy execution successful.
+2025-03-12 22:55:20.522 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/AuthUser/login?esPersonal=true - 204 null null 6.5196ms
+2025-03-12 22:55:20.525 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-12 22:55:20.526 -05:00 [INF] CORS policy execution successful.
+2025-03-12 22:55:20.558 -05:00 [WRN] Usuario no autenticado.
+2025-03-12 22:55:20.559 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-12 22:55:20.573 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-12 22:55:20.906 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-12 22:55:21.051 -05:00 [INF] Executed DbCommand (100ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-12 22:55:21.266 -05:00 [INF] Executed DbCommand (100ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 22:55:21.385 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 22:55:21.489 -05:00 [INF] Executed DbCommand (102ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 22:55:21.591 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-12 22:55:21.598 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-12 22:55:21.702 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 22:55:21.956 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 22:55:22.054 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 22:55:22.153 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 22:55:22.184 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1275.3633ms.
+2025-03-12 22:55:22.189 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-12 22:55:22.211 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1635.3507ms
+2025-03-12 22:55:22.211 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-12 22:55:22.214 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1688.9726ms
+2025-03-12 22:56:19.337 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/AuthUser/login?esPersonal=true - null null
+2025-03-12 22:56:19.340 -05:00 [INF] CORS policy execution successful.
+2025-03-12 22:56:19.340 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/AuthUser/login?esPersonal=true - 204 null null 3.7598ms
+2025-03-12 22:56:19.343 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-12 22:56:19.343 -05:00 [INF] CORS policy execution successful.
+2025-03-12 22:56:19.345 -05:00 [WRN] Usuario no autenticado.
+2025-03-12 22:56:19.345 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-12 22:56:19.345 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-12 22:56:19.350 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-12 22:56:19.456 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-12 22:56:19.606 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 22:56:19.704 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 22:56:19.803 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 22:56:19.900 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-12 22:56:19.901 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-12 22:56:20.009 -05:00 [INF] Executed DbCommand (107ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 22:56:20.217 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 22:56:20.315 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 22:56:20.412 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 22:56:20.413 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1062.729ms.
+2025-03-12 22:56:20.413 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-12 22:56:20.414 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1068.2793ms
+2025-03-12 22:56:20.414 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-12 22:56:20.414 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1072.2998ms

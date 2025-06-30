@@ -1,0 +1,46 @@
+2025-02-24 12:14:52.118 -05:00 [INF] User profile is available. Using 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-24 12:14:54.752 -05:00 [INF] Executed DbCommand (190ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-24 12:14:54.910 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-24 12:14:55.005 -05:00 [INF] Executed DbCommand (93ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-24 12:14:55.099 -05:00 [INF] Executed DbCommand (93ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-24 12:14:55.402 -05:00 [INF] Creating key {bb2c310f-42b5-47bd-9144-32e8433654da} with creation date 2025-02-24 17:14:55Z, activation date 2025-02-24 17:14:55Z, and expiration date 2025-05-25 17:14:55Z.
+2025-02-24 12:14:55.413 -05:00 [INF] Writing data to file 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys\key-bb2c310f-42b5-47bd-9144-32e8433654da.xml'.
+2025-02-24 12:14:56.661 -05:00 [INF] Now listening on: https://localhost:7063
+2025-02-24 12:14:56.661 -05:00 [INF] Now listening on: http://localhost:5121
+2025-02-24 12:14:56.706 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-24 12:14:56.706 -05:00 [INF] Hosting environment: Development
+2025-02-24 12:14:56.706 -05:00 [INF] Content root path: E:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-02-24 12:15:12.627 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger - null null
+2025-02-24 12:15:12.821 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger - 301 0 null 202.9521ms
+2025-02-24 12:15:12.824 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-02-24 12:15:12.879 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 54.5817ms
+2025-02-24 12:15:12.882 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-24 12:15:12.882 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/swagger-ui.css - null null
+2025-02-24 12:15:12.882 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/swagger-ui-bundle.js - null null
+2025-02-24 12:15:12.882 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-24 12:15:12.891 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 9.4955ms
+2025-02-24 12:15:12.923 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-24 12:15:12.923 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-24 12:15:12.924 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 41.7129ms
+2025-02-24 12:15:12.924 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/swagger-ui.css - 200 152034 text/css 41.7589ms
+2025-02-24 12:15:12.927 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-02-24 12:15:12.944 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-24 12:15:12.944 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 61.9947ms
+2025-02-24 12:15:15.092 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 2165.5966ms
+2025-02-24 12:15:15.132 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-02-24 12:15:15.132 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/favicon-32x32.png - null null
+2025-02-24 12:15:15.133 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-24 12:15:15.133 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/favicon-32x32.png - 200 628 image/png 0.6844ms
+2025-02-24 12:15:15.214 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.4212ms

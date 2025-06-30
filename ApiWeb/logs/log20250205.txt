@@ -1,0 +1,122 @@
+2025-02-05 23:27:09.415 -05:00 [INF] User profile is available. Using 'C:\Users\CHAVEZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-05 23:27:12.509 -05:00 [INF] Executed DbCommand (180ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-05 23:27:12.652 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-05 23:27:12.748 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-05 23:27:14.570 -05:00 [INF] Now listening on: https://localhost:7063
+2025-02-05 23:27:14.570 -05:00 [INF] Now listening on: http://localhost:5121
+2025-02-05 23:27:14.706 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 23:27:14.706 -05:00 [INF] Hosting environment: Development
+2025-02-05 23:27:14.706 -05:00 [INF] Content root path: D:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-02-05 23:27:15.805 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-02-05 23:27:16.032 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 240.1735ms
+2025-02-05 23:27:16.037 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-05 23:27:16.037 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-02-05 23:27:16.046 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 9.6683ms
+2025-02-05 23:27:16.231 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 194.5202ms
+2025-02-05 23:27:16.309 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-02-05 23:27:16.443 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.8132ms
+2025-02-05 23:27:23.890 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-finalizado - null null
+2025-02-05 23:27:23.923 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:27:23.924 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-finalizado - 204 null null 34.2952ms
+2025-02-05 23:27:23.927 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-finalizado - null null
+2025-02-05 23:27:23.931 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:27:25.349 -05:00 [WRN] No se pudo obtener el UserId del usuario autenticado.
+2025-02-05 23:27:25.361 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb)'
+2025-02-05 23:27:25.425 -05:00 [INF] Route matched with {action = "GetFinalizado", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetFinalizado() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-02-05 23:27:25.747 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb) - Validation state: "Valid"
+2025-02-05 23:27:26.186 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 435.6487ms.
+2025-02-05 23:27:26.190 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.EnTiendaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 23:27:26.386 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb) in 958.1523ms
+2025-02-05 23:27:26.386 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb)'
+2025-02-05 23:27:26.387 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-finalizado - 200 2345 application/json; charset=utf-8 2461.933ms
+2025-02-05 23:28:08.700 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-finalizado - null null
+2025-02-05 23:28:08.701 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:28:08.701 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-finalizado - 204 null null 1.5853ms
+2025-02-05 23:28:08.705 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-finalizado - null null
+2025-02-05 23:28:08.705 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:28:08.709 -05:00 [WRN] No se pudo obtener el UserId del usuario autenticado.
+2025-02-05 23:28:08.709 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb)'
+2025-02-05 23:28:08.709 -05:00 [INF] Route matched with {action = "GetFinalizado", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetFinalizado() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-02-05 23:28:08.714 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb) - Validation state: "Valid"
+2025-02-05 23:28:08.815 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 101.425ms.
+2025-02-05 23:28:08.816 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.EnTiendaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 23:28:08.817 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb) in 107.4023ms
+2025-02-05 23:28:08.817 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb)'
+2025-02-05 23:28:08.817 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-finalizado - 200 2345 application/json; charset=utf-8 112.7355ms
+2025-02-05 23:29:56.081 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-finalizado - null null
+2025-02-05 23:29:56.081 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:29:56.081 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/EnTienda/pedido-finalizado - 204 null null 1.0454ms
+2025-02-05 23:29:56.084 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-finalizado - null null
+2025-02-05 23:29:56.084 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:29:56.087 -05:00 [WRN] No se pudo obtener el UserId del usuario autenticado.
+2025-02-05 23:29:56.087 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb)'
+2025-02-05 23:29:56.087 -05:00 [INF] Route matched with {action = "GetFinalizado", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetFinalizado() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-02-05 23:29:56.096 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb) - Validation state: "Valid"
+2025-02-05 23:29:56.100 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7063/api/pedido/ - null null
+2025-02-05 23:29:56.101 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:29:56.101 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7063/api/pedido/ - 204 null null 0.5195ms
+2025-02-05 23:29:56.103 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/pedido/ - null null
+2025-02-05 23:29:56.103 -05:00 [INF] CORS policy execution successful.
+2025-02-05 23:29:56.103 -05:00 [WRN] Usuario no autenticado.
+2025-02-05 23:29:56.104 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-02-05 23:29:56.107 -05:00 [INF] Route matched with {action = "Get", controller = "Pedido"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller ApiWeb.Controllers.PedidoController (ApiWeb).
+2025-02-05 23:29:56.109 -05:00 [INF] Executing action method ApiWeb.Controllers.PedidoController.Get (ApiWeb) - Validation state: "Valid"
+2025-02-05 23:29:56.195 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.8818ms.
+2025-02-05 23:29:56.195 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.EnTiendaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 23:29:56.195 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb) in 108.2625ms
+2025-02-05 23:29:56.195 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetFinalizado (ApiWeb)'
+2025-02-05 23:29:56.195 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/EnTienda/pedido-finalizado - 200 2345 application/json; charset=utf-8 111.6574ms
+2025-02-05 23:29:56.667 -05:00 [INF] Executed action method ApiWeb.Controllers.PedidoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 558.3623ms.
+2025-02-05 23:29:56.668 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 23:29:56.674 -05:00 [INF] Executed action ApiWeb.Controllers.PedidoController.Get (ApiWeb) in 566.8226ms
+2025-02-05 23:29:56.674 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-02-05 23:29:56.674 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/pedido/ - 200 10768 application/json; charset=utf-8 571.9389ms
+2025-02-05 23:30:15.865 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/api/Pedido - null null
+2025-02-05 23:30:15.866 -05:00 [WRN] Usuario no autenticado.
+2025-02-05 23:30:15.866 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-02-05 23:30:15.866 -05:00 [INF] Route matched with {action = "Get", controller = "Pedido"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller ApiWeb.Controllers.PedidoController (ApiWeb).
+2025-02-05 23:30:15.867 -05:00 [INF] Executing action method ApiWeb.Controllers.PedidoController.Get (ApiWeb) - Validation state: "Valid"
+2025-02-05 23:30:15.965 -05:00 [INF] Executed action method ApiWeb.Controllers.PedidoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.37ms.
+2025-02-05 23:30:15.965 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 23:30:15.968 -05:00 [INF] Executed action ApiWeb.Controllers.PedidoController.Get (ApiWeb) in 102.1677ms
+2025-02-05 23:30:15.968 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-02-05 23:30:15.968 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/api/Pedido - 200 10768 application/json; charset=utf-8 103.2405ms
+2025-02-05 23:38:23.120 -05:00 [INF] User profile is available. Using 'C:\Users\CHAVEZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-05 23:38:24.741 -05:00 [INF] Executed DbCommand (155ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-05 23:38:24.891 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-05 23:38:24.986 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-02-05 23:38:25.770 -05:00 [INF] Now listening on: https://localhost:7063
+2025-02-05 23:38:25.770 -05:00 [INF] Now listening on: http://localhost:5121
+2025-02-05 23:38:25.826 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 23:38:25.826 -05:00 [INF] Hosting environment: Development
+2025-02-05 23:38:25.826 -05:00 [INF] Content root path: D:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-02-05 23:38:26.108 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-02-05 23:38:26.241 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 143.3493ms
+2025-02-05 23:38:26.251 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-05 23:38:26.251 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-02-05 23:38:26.256 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 5.3134ms
+2025-02-05 23:38:26.282 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.0424ms
+2025-02-05 23:38:26.313 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-02-05 23:38:26.420 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.1078ms
+2025-02-05 23:38:31.709 -05:00 [INF] Request starting HTTP/1.1 HEAD https://localhost:7063/ - null null
+2025-02-05 23:38:31.735 -05:00 [WRN] Usuario no autenticado.
+2025-02-05 23:38:31.737 -05:00 [INF] Request finished HTTP/1.1 HEAD https://localhost:7063/ - 404 null null 27.7991ms
+2025-02-05 23:38:31.751 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: HEAD https://localhost:7063/, Response status code: 404

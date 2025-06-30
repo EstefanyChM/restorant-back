@@ -1,0 +1,1172 @@
+2025-03-15 22:37:08.064 -05:00 [INF] User profile is available. Using 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 22:37:11.018 -05:00 [INF] Executed DbCommand (175ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 22:37:11.182 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 22:37:11.277 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 22:37:11.371 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 22:37:13.416 -05:00 [INF] Now listening on: https://localhost:7063
+2025-03-15 22:37:13.416 -05:00 [INF] Now listening on: http://localhost:5121
+2025-03-15 22:37:13.477 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 22:37:13.477 -05:00 [INF] Hosting environment: Development
+2025-03-15 22:37:13.478 -05:00 [INF] Content root path: E:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-03-15 22:37:14.039 -05:00 [INF] Request starting HTTP/1.1 HEAD https://localhost:7063/ - null null
+2025-03-15 22:37:14.287 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:37:14.298 -05:00 [INF] Request finished HTTP/1.1 HEAD https://localhost:7063/ - 404 null null 276.8558ms
+2025-03-15 22:37:14.300 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: HEAD https://localhost:7063/, Response status code: 404
+2025-03-15 22:37:14.509 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-03-15 22:37:14.663 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 154.1869ms
+2025-03-15 22:37:14.753 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 22:37:14.757 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 4.1313ms
+2025-03-15 22:37:14.794 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-03-15 22:37:14.970 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 176.6208ms
+2025-03-15 22:37:15.676 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-03-15 22:37:15.772 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.5062ms
+2025-03-15 22:38:01.004 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/swagger - null null
+2025-03-15 22:38:01.012 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/swagger - 301 0 null 8.0085ms
+2025-03-15 22:38:01.016 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/swagger/index.html - null null
+2025-03-15 22:38:01.024 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 8.7253ms
+2025-03-15 22:38:01.043 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/swagger/swagger-ui.css - null null
+2025-03-15 22:38:01.047 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/swagger/swagger-ui-bundle.js - null null
+2025-03-15 22:38:01.053 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-15 22:38:01.053 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 22:38:01.058 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 5.781ms
+2025-03-15 22:38:01.063 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/_vs/browserLink - null null
+2025-03-15 22:38:01.104 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.3185ms
+2025-03-15 22:38:01.126 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-15 22:38:01.126 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/swagger/swagger-ui.css - 200 152034 text/css 83.2956ms
+2025-03-15 22:38:01.140 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-15 22:38:01.140 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 87.9102ms
+2025-03-15 22:38:01.159 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-15 22:38:01.159 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 112.7835ms
+2025-03-15 22:38:01.304 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-03-15 22:38:01.312 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/swagger/favicon-32x32.png - null null
+2025-03-15 22:38:01.312 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-15 22:38:01.312 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/swagger/favicon-32x32.png - 200 628 image/png 0.4773ms
+2025-03-15 22:38:01.413 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.5874ms
+2025-03-15 22:38:52.670 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/ - null null
+2025-03-15 22:38:53.504 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:38:53.504 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:38:53.534 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 22:38:53.764 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:39:00.229 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6463.3195ms.
+2025-03-15 22:39:00.233 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:39:00.324 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 6788.5366ms
+2025-03-15 22:39:00.325 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:39:00.325 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/ - 200 944 application/json; charset=utf-8 7655.7539ms
+2025-03-15 22:39:04.566 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 22:39:04.570 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:39:04.570 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 22:39:04.573 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 22:39:04.624 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:39:04.761 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 22:39:04.991 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 22:39:05.102 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 22:39:05.202 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 22:39:05.303 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 22:39:05.309 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 22:39:05.411 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 22:39:05.621 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 22:39:05.721 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 22:39:05.822 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 22:39:05.874 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1250.1442ms.
+2025-03-15 22:39:05.874 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 22:39:05.876 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1303.6577ms
+2025-03-15 22:39:05.876 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 22:39:05.879 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 392 application/json; charset=utf-8 1312.9392ms
+2025-03-15 22:39:07.785 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 22:39:07.785 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:39:07.785 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 22:39:07.787 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 22:39:07.790 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:39:12.392 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4602.26ms.
+2025-03-15 22:39:12.392 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:39:12.395 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 4607.8266ms
+2025-03-15 22:39:12.395 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 22:39:12.395 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1070 application/json; charset=utf-8 4610.9195ms
+2025-03-15 22:39:16.086 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/categoria/ - null null
+2025-03-15 22:39:16.086 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:39:16.086 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 22:39:16.089 -05:00 [INF] Route matched with {action = "Get", controller = "Categoria"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean]) on controller ApiWeb.Controllers.CategoriaController (ApiWeb).
+2025-03-15 22:39:16.091 -05:00 [INF] Executing action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:39:16.198 -05:00 [INF] Executed action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 107.6269ms.
+2025-03-15 22:39:16.198 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.CategoriaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:39:16.201 -05:00 [INF] Executed action ApiWeb.Controllers.CategoriaController.Get (ApiWeb) in 111.6236ms
+2025-03-15 22:39:16.201 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 22:39:16.201 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/categoria/ - 200 798 application/json; charset=utf-8 115.8539ms
+2025-03-15 22:39:33.186 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/ - null null
+2025-03-15 22:39:33.187 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:39:33.187 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:39:33.187 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 22:39:33.188 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:44:11.832 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 278663.0604ms.
+2025-03-15 22:44:11.832 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:44:11.835 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 278667.0118ms
+2025-03-15 22:44:11.835 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:44:11.835 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/ - 200 944 application/json; charset=utf-8 278668.9142ms
+2025-03-15 22:47:33.287 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/ - null null
+2025-03-15 22:47:33.288 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:47:33.288 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:47:33.289 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 22:47:33.295 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:47:36.103 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2808.4496ms.
+2025-03-15 22:47:36.103 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:47:36.104 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 2815.3428ms
+2025-03-15 22:47:36.104 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:47:36.104 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/ - 200 944 application/json; charset=utf-8 2816.8624ms
+2025-03-15 22:54:29.813 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/ - null null
+2025-03-15 22:54:29.815 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:54:29.815 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:54:29.815 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 22:54:29.817 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:54:29.917 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.4269ms.
+2025-03-15 22:54:29.917 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:54:29.917 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 102.0998ms
+2025-03-15 22:54:29.917 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:54:29.917 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/ - 200 944 application/json; charset=utf-8 104.9945ms
+2025-03-15 22:55:15.818 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - null null
+2025-03-15 22:55:15.819 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:55:15.819 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - 404 0 null 0.699ms
+2025-03-15 22:55:15.819 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7063/api/producto/true/true/8, Response status code: 404
+2025-03-15 22:55:50.704 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - null null
+2025-03-15 22:55:50.705 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:55:50.705 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - 404 0 null 1.1122ms
+2025-03-15 22:55:50.705 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7063/api/producto/true/true/8, Response status code: 404
+2025-03-15 22:56:08.934 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/true/true/6 - null null
+2025-03-15 22:56:08.934 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:56:08.934 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/true/true/6 - 404 0 null 0.5288ms
+2025-03-15 22:56:08.935 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7063/api/producto/true/true/6, Response status code: 404
+2025-03-15 22:56:29.379 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 22:56:29.380 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:56:29.380 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 22:56:29.380 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 22:56:29.384 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:56:29.491 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 22:56:29.641 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 22:56:29.740 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 22:56:29.840 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 22:56:29.938 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 22:56:29.939 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 22:56:30.041 -05:00 [INF] Executed DbCommand (101ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 22:56:30.242 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 22:56:30.342 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 22:56:30.441 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 22:56:30.441 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1057.3364ms.
+2025-03-15 22:56:30.441 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 22:56:30.441 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1061.0721ms
+2025-03-15 22:56:30.441 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 22:56:30.442 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1062.4465ms
+2025-03-15 22:56:32.330 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 22:56:32.331 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:56:32.331 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 22:56:32.331 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 22:56:32.333 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:56:32.432 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.2325ms.
+2025-03-15 22:56:32.433 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:56:32.433 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 101.9176ms
+2025-03-15 22:56:32.433 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 22:56:32.433 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1070 application/json; charset=utf-8 103.1299ms
+2025-03-15 22:56:35.151 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/categoria/ - null null
+2025-03-15 22:56:35.152 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:56:35.152 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 22:56:35.152 -05:00 [INF] Route matched with {action = "Get", controller = "Categoria"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean]) on controller ApiWeb.Controllers.CategoriaController (ApiWeb).
+2025-03-15 22:56:35.153 -05:00 [INF] Executing action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:56:35.251 -05:00 [INF] Executed action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.0186ms.
+2025-03-15 22:56:35.251 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.CategoriaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:56:35.251 -05:00 [INF] Executed action ApiWeb.Controllers.CategoriaController.Get (ApiWeb) in 99.2897ms
+2025-03-15 22:56:35.251 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 22:56:35.251 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/categoria/ - 200 798 application/json; charset=utf-8 99.8728ms
+2025-03-15 22:57:11.191 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - null null
+2025-03-15 22:57:11.200 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:57:11.200 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - 404 0 null 9.0184ms
+2025-03-15 22:57:11.200 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7063/api/producto/true/true/8, Response status code: 404
+2025-03-15 22:58:54.345 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/Producto?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 22:58:54.345 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 22:58:54.345 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:58:54.345 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 22:58:54.347 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 22:58:56.742 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2394.6512ms.
+2025-03-15 22:58:56.743 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 22:58:56.743 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 2397.7528ms
+2025-03-15 22:58:56.743 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 22:58:56.743 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/Producto?activo=true&disponible=true&idCategoria=8 - 200 458 application/json; charset=utf-8 2398.6414ms
+2025-03-15 23:03:16.363 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - null null
+2025-03-15 23:03:16.365 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:03:16.366 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/true/true/8 - 404 0 null 2.8052ms
+2025-03-15 23:03:16.367 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7063/api/producto/true/true/8, Response status code: 404
+2025-03-15 23:09:44.316 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:09:44.316 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:09:44.316 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:09:44.316 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:09:44.317 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:09:51.650 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7333.3419ms.
+2025-03-15 23:09:51.650 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:09:51.650 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 7334.6931ms
+2025-03-15 23:09:51.650 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:09:51.651 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 458 application/json; charset=utf-8 7335.5013ms
+2025-03-15 23:10:03.222 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:10:03.222 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:10:03.222 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:10:03.222 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:10:03.223 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:10:14.335 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11112.2521ms.
+2025-03-15 23:10:14.335 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:10:14.335 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 11113.2557ms
+2025-03-15 23:10:14.335 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:10:14.335 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 458 application/json; charset=utf-8 11113.8398ms
+2025-03-15 23:10:52.769 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 23:10:52.770 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:10:52.770 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:10:52.770 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 23:10:52.780 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:10:52.879 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 23:10:53.027 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:10:53.124 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:10:53.222 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:10:53.319 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 23:10:53.319 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 23:10:53.417 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:10:53.612 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:10:53.712 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:10:53.809 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:10:53.810 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1029.1147ms.
+2025-03-15 23:10:53.810 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 23:10:53.810 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1040.0288ms
+2025-03-15 23:10:53.810 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:10:53.810 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1040.8543ms
+2025-03-15 23:10:55.784 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:10:55.784 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:10:55.784 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:10:55.784 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:10:55.789 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:10:55.887 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.2109ms.
+2025-03-15 23:10:55.887 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:10:55.887 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 102.9307ms
+2025-03-15 23:10:55.887 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:10:55.888 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1070 application/json; charset=utf-8 103.6166ms
+2025-03-15 23:10:58.637 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/categoria/ - null null
+2025-03-15 23:10:58.637 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:10:58.637 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 23:10:58.637 -05:00 [INF] Route matched with {action = "Get", controller = "Categoria"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean]) on controller ApiWeb.Controllers.CategoriaController (ApiWeb).
+2025-03-15 23:10:58.639 -05:00 [INF] Executing action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:10:58.736 -05:00 [INF] Executed action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 96.7271ms.
+2025-03-15 23:10:58.736 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.CategoriaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:10:58.736 -05:00 [INF] Executed action ApiWeb.Controllers.CategoriaController.Get (ApiWeb) in 98.6094ms
+2025-03-15 23:10:58.736 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 23:10:58.736 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/categoria/ - 200 798 application/json; charset=utf-8 99.4101ms
+2025-03-15 23:11:15.482 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:11:15.482 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:11:15.482 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:11:15.482 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:11:15.483 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:11:15.581 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.2624ms.
+2025-03-15 23:11:15.581 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:11:15.581 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 98.3017ms
+2025-03-15 23:11:15.581 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:11:15.581 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 458 application/json; charset=utf-8 98.8827ms
+2025-03-15 23:12:29.755 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:12:29.756 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:12:29.756 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:12:29.756 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:12:29.757 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:12:29.854 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.2906ms.
+2025-03-15 23:12:29.854 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:12:29.855 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 98.5227ms
+2025-03-15 23:12:29.855 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:12:29.855 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 487 application/json; charset=utf-8 99.4154ms
+2025-03-15 23:15:26.933 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:15:26.934 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:15:26.934 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:15:26.934 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:15:26.938 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:15:27.036 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.8112ms.
+2025-03-15 23:15:27.036 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:15:27.036 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 102.4239ms
+2025-03-15 23:15:27.036 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:15:27.036 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 487 application/json; charset=utf-8 103.8388ms
+2025-03-15 23:15:44.006 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:15:44.007 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:15:44.007 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:15:44.007 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:15:44.008 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:15:44.106 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.0257ms.
+2025-03-15 23:15:44.106 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:15:44.106 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 99.3689ms
+2025-03-15 23:15:44.106 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:15:44.107 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 487 application/json; charset=utf-8 100.1231ms
+2025-03-15 23:16:02.193 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - application/json; charset=utf-8 362
+2025-03-15 23:16:02.193 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:16:02.193 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:16:02.196 -05:00 [INF] Route matched with {action = "Create", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(RequestResponseModel.EnTiendaRequest, Int32) on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:16:02.217 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:16:46.149 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - application/json; charset=utf-8 362
+2025-03-15 23:16:46.150 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:16:46.150 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:16:46.150 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:16:46.150 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - application/json; charset=utf-8 362
+2025-03-15 23:16:46.150 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - application/json; charset=utf-8 362
+2025-03-15 23:16:46.150 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:16:46.150 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:16:46.150 -05:00 [INF] Route matched with {action = "Create", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(RequestResponseModel.EnTiendaRequest, Int32) on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:16:46.151 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:16:46.151 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:16:46.150 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:16:46.151 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:16:46.151 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:16:46.151 -05:00 [INF] Route matched with {action = "Create", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(RequestResponseModel.EnTiendaRequest, Int32) on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:16:46.151 -05:00 [INF] Route matched with {action = "Create", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(RequestResponseModel.EnTiendaRequest, Int32) on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:16:46.157 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:16:46.160 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:16:46.160 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:16:46.160 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:16:51.674 -05:00 [INF] User profile is available. Using 'C:\Users\gecha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 23:16:53.424 -05:00 [INF] Executed DbCommand (129ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:16:53.573 -05:00 [INF] Executed DbCommand (95ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:16:53.668 -05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:16:53.765 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:16:54.520 -05:00 [INF] Now listening on: https://localhost:7063
+2025-03-15 23:16:54.520 -05:00 [INF] Now listening on: http://localhost:5121
+2025-03-15 23:16:54.583 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 23:16:54.583 -05:00 [INF] Hosting environment: Development
+2025-03-15 23:16:54.583 -05:00 [INF] Content root path: E:\RICCOS-MULTI\RICCOS-BAK\ApiWeb
+2025-03-15 23:16:55.513 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - null null
+2025-03-15 23:16:55.669 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 null text/html;charset=utf-8 167.3901ms
+2025-03-15 23:16:55.674 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 23:16:55.683 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 9.1079ms
+2025-03-15 23:16:55.688 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - null null
+2025-03-15 23:16:55.723 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4081ms
+2025-03-15 23:16:55.768 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - null null
+2025-03-15 23:16:55.907 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.0779ms
+2025-03-15 23:17:32.272 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:17:32.307 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:17:32.309 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:17:32.320 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:17:32.602 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:17:32.781 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 176.2639ms.
+2025-03-15 23:17:32.785 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:17:32.857 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 534.3558ms
+2025-03-15 23:17:32.857 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:17:32.858 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1070 application/json; charset=utf-8 587.2812ms
+2025-03-15 23:17:36.935 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:17:36.992 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:17:36.992 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:17:36.999 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:17:37.012 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:17:37.184 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 172.6259ms.
+2025-03-15 23:17:37.185 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:17:37.191 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 192.1044ms
+2025-03-15 23:17:37.191 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:17:37.191 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 487 application/json; charset=utf-8 256.8463ms
+2025-03-15 23:17:46.411 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - application/json; charset=utf-8 362
+2025-03-15 23:17:46.412 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:17:46.413 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:17:46.415 -05:00 [INF] Route matched with {action = "Create", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(RequestResponseModel.EnTiendaRequest, Int32) on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:17:46.461 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:17:58.818 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12357.5631ms.
+2025-03-15 23:17:58.818 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.EnTiendaResponse'.
+2025-03-15 23:17:58.823 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) in 12407.8243ms
+2025-03-15 23:17:58.823 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:17:58.823 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - 200 65 application/json; charset=utf-8 12412.1353ms
+2025-03-15 23:17:59.000 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:17:59.001 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:17:59.001 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:17:59.001 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:17:59.007 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:17:59.106 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.0546ms.
+2025-03-15 23:17:59.106 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:17:59.107 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 105.5296ms
+2025-03-15 23:17:59.107 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:17:59.107 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1069 application/json; charset=utf-8 107.0538ms
+2025-03-15 23:23:59.269 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:23:59.298 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:23:59.298 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:23:59.298 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:23:59.300 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:23:59.790 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 490.2392ms.
+2025-03-15 23:23:59.790 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:23:59.791 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 492.3773ms
+2025-03-15 23:23:59.791 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:23:59.791 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 486 application/json; charset=utf-8 522.5725ms
+2025-03-15 23:24:06.830 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:24:06.832 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:24:06.832 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:24:06.832 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:24:06.834 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:24:06.933 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.5566ms.
+2025-03-15 23:24:06.933 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:24:06.933 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 101.323ms
+2025-03-15 23:24:06.933 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:24:06.933 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 458 application/json; charset=utf-8 103.1417ms
+2025-03-15 23:24:25.610 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - application/json; charset=utf-8 506
+2025-03-15 23:24:25.610 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:24:25.610 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:24:25.610 -05:00 [INF] Route matched with {action = "Create", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(RequestResponseModel.EnTiendaRequest, Int32) on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:24:25.613 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:24:32.956 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7342.6459ms.
+2025-03-15 23:24:32.956 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.EnTiendaResponse'.
+2025-03-15 23:24:32.956 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) in 7345.8778ms
+2025-03-15 23:24:32.956 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:24:32.956 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - 200 65 application/json; charset=utf-8 7346.4719ms
+2025-03-15 23:24:33.081 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:24:33.081 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:24:33.081 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:24:33.081 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:24:33.083 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:24:33.182 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.831ms.
+2025-03-15 23:24:33.182 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:24:33.182 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 100.9953ms
+2025-03-15 23:24:33.182 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:24:33.183 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1067 application/json; charset=utf-8 101.7634ms
+2025-03-15 23:27:09.751 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:27:09.753 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:27:09.753 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:27:09.753 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:27:09.757 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:27:09.855 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.4355ms.
+2025-03-15 23:27:09.855 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:27:09.856 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 102.13ms
+2025-03-15 23:27:09.856 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:27:09.856 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1067 application/json; charset=utf-8 105.6858ms
+2025-03-15 23:27:16.209 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:27:16.210 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:27:16.210 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:16.210 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:27:16.210 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:27:16.309 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.3955ms.
+2025-03-15 23:27:16.309 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:27:16.309 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 99.4973ms
+2025-03-15 23:27:16.309 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:16.309 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 486 application/json; charset=utf-8 100.0974ms
+2025-03-15 23:27:21.979 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:27:21.979 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:27:21.979 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:21.979 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:27:21.980 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:27:22.078 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.0997ms.
+2025-03-15 23:27:22.078 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:27:22.078 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 99.1936ms
+2025-03-15 23:27:22.078 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:22.078 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 457 application/json; charset=utf-8 99.8592ms
+2025-03-15 23:27:26.900 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - application/json; charset=utf-8 507
+2025-03-15 23:27:26.900 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:27:26.900 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:27:26.900 -05:00 [INF] Route matched with {action = "Create", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(RequestResponseModel.EnTiendaRequest, Int32) on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:27:26.902 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:27:43.579 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.Create (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16676.9565ms.
+2025-03-15 23:27:43.579 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.EnTiendaResponse'.
+2025-03-15 23:27:43.579 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.Create (ApiWeb) in 16680.0577ms
+2025-03-15 23:27:43.579 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.Create (ApiWeb)'
+2025-03-15 23:27:43.580 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/EnTienda/?idUser=9 - 200 66 application/json; charset=utf-8 16680.718ms
+2025-03-15 23:27:43.693 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:27:43.693 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:27:43.693 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:27:43.693 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:27:43.695 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:27:43.792 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.5063ms.
+2025-03-15 23:27:43.792 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:27:43.793 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.5004ms
+2025-03-15 23:27:43.793 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:27:43.793 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 100.193ms
+2025-03-15 23:27:56.172 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:27:56.172 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:27:56.172 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:56.172 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:27:56.173 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:27:56.271 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.9034ms.
+2025-03-15 23:27:56.271 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:27:56.271 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 98.9036ms
+2025-03-15 23:27:56.271 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:56.271 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 2 application/json; charset=utf-8 99.5298ms
+2025-03-15 23:27:58.871 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:27:58.872 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:27:58.872 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:58.872 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:27:58.872 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:27:58.970 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.435ms.
+2025-03-15 23:27:58.970 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:27:58.970 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 98.413ms
+2025-03-15 23:27:58.970 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:27:58.970 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 457 application/json; charset=utf-8 99.1211ms
+2025-03-15 23:28:42.278 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:28:42.278 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:28:42.279 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:28:42.279 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:28:42.280 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:28:42.378 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.1778ms.
+2025-03-15 23:28:42.378 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:28:42.378 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 99.7098ms
+2025-03-15 23:28:42.378 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:28:42.379 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 457 application/json; charset=utf-8 100.6803ms
+2025-03-15 23:28:45.318 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:28:45.318 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:28:45.318 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:28:45.318 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:28:45.319 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:28:45.418 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.8262ms.
+2025-03-15 23:28:45.418 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:28:45.418 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 99.8528ms
+2025-03-15 23:28:45.418 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:28:45.418 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 2 application/json; charset=utf-8 100.4216ms
+2025-03-15 23:29:01.052 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/pedido/79 - application/json null
+2025-03-15 23:29:01.053 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:29:01.053 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-03-15 23:29:01.056 -05:00 [INF] Route matched with {action = "Get", controller = "Pedido"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(Int32) on controller ApiWeb.Controllers.PedidoController (ApiWeb).
+2025-03-15 23:29:01.057 -05:00 [INF] Executing action method ApiWeb.Controllers.PedidoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:29:01.255 -05:00 [INF] Executed action method ApiWeb.Controllers.PedidoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 197.6372ms.
+2025-03-15 23:29:01.255 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.PedidoResponse'.
+2025-03-15 23:29:01.260 -05:00 [INF] Executed action ApiWeb.Controllers.PedidoController.Get (ApiWeb) in 204.0845ms
+2025-03-15 23:29:01.260 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-03-15 23:29:01.260 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/pedido/79 - 200 613 application/json; charset=utf-8 207.7128ms
+2025-03-15 23:29:47.398 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/pedido/79 - application/json null
+2025-03-15 23:29:47.399 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:29:47.399 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-03-15 23:29:47.399 -05:00 [INF] Route matched with {action = "Get", controller = "Pedido"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(Int32) on controller ApiWeb.Controllers.PedidoController (ApiWeb).
+2025-03-15 23:29:47.400 -05:00 [INF] Executing action method ApiWeb.Controllers.PedidoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:29:47.595 -05:00 [INF] Executed action method ApiWeb.Controllers.PedidoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 195.0439ms.
+2025-03-15 23:29:47.595 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.PedidoResponse'.
+2025-03-15 23:29:47.595 -05:00 [INF] Executed action ApiWeb.Controllers.PedidoController.Get (ApiWeb) in 196.621ms
+2025-03-15 23:29:47.595 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-03-15 23:29:47.595 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/pedido/79 - 200 613 application/json; charset=utf-8 197.993ms
+2025-03-15 23:30:02.061 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:30:02.061 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:02.061 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:02.061 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:30:02.063 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:02.161 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.7216ms.
+2025-03-15 23:30:02.162 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:02.162 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 100.4417ms
+2025-03-15 23:30:02.162 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:02.162 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 101.0686ms
+2025-03-15 23:30:16.376 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:30:16.376 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:16.376 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:30:16.376 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:30:16.377 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:16.475 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.6888ms.
+2025-03-15 23:30:16.475 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:16.475 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 99.1188ms
+2025-03-15 23:30:16.475 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:30:16.475 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 457 application/json; charset=utf-8 100.0183ms
+2025-03-15 23:30:22.248 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/pedido/65 - application/json null
+2025-03-15 23:30:22.248 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:22.248 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-03-15 23:30:22.248 -05:00 [INF] Route matched with {action = "Get", controller = "Pedido"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(Int32) on controller ApiWeb.Controllers.PedidoController (ApiWeb).
+2025-03-15 23:30:22.249 -05:00 [INF] Executing action method ApiWeb.Controllers.PedidoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:22.444 -05:00 [INF] Executed action method ApiWeb.Controllers.PedidoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 194.8206ms.
+2025-03-15 23:30:22.444 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.PedidoResponse'.
+2025-03-15 23:30:22.444 -05:00 [INF] Executed action ApiWeb.Controllers.PedidoController.Get (ApiWeb) in 196.0457ms
+2025-03-15 23:30:22.444 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.PedidoController.Get (ApiWeb)'
+2025-03-15 23:30:22.445 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/pedido/65 - 200 388 application/json; charset=utf-8 196.652ms
+2025-03-15 23:30:24.997 -05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7063/api/pedido/?idUser=9 - application/json; charset=utf-8 312
+2025-03-15 23:30:24.997 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:24.997 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.PedidoController.Update (ApiWeb)'
+2025-03-15 23:30:24.999 -05:00 [INF] Route matched with {action = "Update", controller = "Pedido"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(RequestResponseModel.PedidoRequest, Int32) on controller ApiWeb.Controllers.PedidoController (ApiWeb).
+2025-03-15 23:30:25.001 -05:00 [INF] Executing action method ApiWeb.Controllers.PedidoController.Update (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:25.395 -05:00 [INF] Executed action method ApiWeb.Controllers.PedidoController.Update (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 393.9235ms.
+2025-03-15 23:30:25.395 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.PedidoResponse'.
+2025-03-15 23:30:25.395 -05:00 [INF] Executed action ApiWeb.Controllers.PedidoController.Update (ApiWeb) in 395.5803ms
+2025-03-15 23:30:25.395 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.PedidoController.Update (ApiWeb)'
+2025-03-15 23:30:25.395 -05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7063/api/pedido/?idUser=9 - 200 349 application/json; charset=utf-8 398.1522ms
+2025-03-15 23:30:25.531 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:30:25.532 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:25.532 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:25.532 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:30:25.533 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:25.632 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.0366ms.
+2025-03-15 23:30:25.632 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:25.633 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 100.7349ms
+2025-03-15 23:30:25.633 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:25.633 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 101.2675ms
+2025-03-15 23:30:39.916 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:30:39.916 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:39.916 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:39.917 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:30:39.918 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:40.016 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.4882ms.
+2025-03-15 23:30:40.016 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:40.016 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.5009ms
+2025-03-15 23:30:40.016 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:40.016 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 100.2791ms
+2025-03-15 23:30:43.477 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:30:43.478 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:43.478 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:43.478 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:30:43.479 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:43.576 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.4028ms.
+2025-03-15 23:30:43.576 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:43.577 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 98.9944ms
+2025-03-15 23:30:43.577 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:43.577 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 99.5868ms
+2025-03-15 23:30:46.876 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - null null
+2025-03-15 23:30:46.877 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:46.877 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:30:46.877 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:30:46.877 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:46.975 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.2235ms.
+2025-03-15 23:30:46.975 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:46.975 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 98.2389ms
+2025-03-15 23:30:46.975 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:30:46.975 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=6 - 200 2 application/json; charset=utf-8 98.7925ms
+2025-03-15 23:30:49.277 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - null null
+2025-03-15 23:30:49.277 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:49.277 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:30:49.277 -05:00 [INF] Route matched with {action = "Get", controller = "Producto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean], System.Nullable`1[System.Int32]) on controller ApiWeb.Controllers.ProductoController (ApiWeb).
+2025-03-15 23:30:49.278 -05:00 [INF] Executing action method ApiWeb.Controllers.ProductoController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:49.375 -05:00 [INF] Executed action method ApiWeb.Controllers.ProductoController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 96.9941ms.
+2025-03-15 23:30:49.375 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.ProductoResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:49.375 -05:00 [INF] Executed action ApiWeb.Controllers.ProductoController.Get (ApiWeb) in 98.0946ms
+2025-03-15 23:30:49.375 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.ProductoController.Get (ApiWeb)'
+2025-03-15 23:30:49.375 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/producto/?activo=true&disponible=true&idCategoria=8 - 200 457 application/json; charset=utf-8 98.6413ms
+2025-03-15 23:30:54.436 -05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7063/api/pedido/?idUser=9 - application/json; charset=utf-8 312
+2025-03-15 23:30:54.436 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:54.436 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.PedidoController.Update (ApiWeb)'
+2025-03-15 23:30:54.436 -05:00 [INF] Route matched with {action = "Update", controller = "Pedido"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(RequestResponseModel.PedidoRequest, Int32) on controller ApiWeb.Controllers.PedidoController (ApiWeb).
+2025-03-15 23:30:54.443 -05:00 [INF] Executing action method ApiWeb.Controllers.PedidoController.Update (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:54.835 -05:00 [INF] Executed action method ApiWeb.Controllers.PedidoController.Update (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 392.3865ms.
+2025-03-15 23:30:54.835 -05:00 [INF] Executing OkObjectResult, writing value of type 'RequestResponseModel.PedidoResponse'.
+2025-03-15 23:30:54.835 -05:00 [INF] Executed action ApiWeb.Controllers.PedidoController.Update (ApiWeb) in 399.2583ms
+2025-03-15 23:30:54.835 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.PedidoController.Update (ApiWeb)'
+2025-03-15 23:30:54.835 -05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7063/api/pedido/?idUser=9 - 200 349 application/json; charset=utf-8 399.9221ms
+2025-03-15 23:30:54.932 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:30:54.932 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:30:54.932 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:54.932 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:30:54.934 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:30:55.031 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.3364ms.
+2025-03-15 23:30:55.031 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:30:55.031 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.0334ms
+2025-03-15 23:30:55.031 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:30:55.031 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 99.611ms
+2025-03-15 23:31:10.085 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/PersonalEmpresa/SystemUser/9 - null null
+2025-03-15 23:31:10.088 -05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)
+2025-03-15 23:31:10.091 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-15 23:31:10.091 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/PersonalEmpresa/SystemUser/9 - 401 0 null 6.7667ms
+2025-03-15 23:31:13.600 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:31:13.600 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:31:13.600 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:31:13.600 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:31:13.601 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:31:13.699 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.2891ms.
+2025-03-15 23:31:13.699 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:31:13.699 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 98.9284ms
+2025-03-15 23:31:13.699 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:31:13.699 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 99.49ms
+2025-03-15 23:31:29.252 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:31:29.252 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:31:29.252 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:31:29.252 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:31:29.254 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:31:29.351 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.4602ms.
+2025-03-15 23:31:29.351 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:31:29.351 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.04ms
+2025-03-15 23:31:29.352 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:31:29.352 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 99.7189ms
+2025-03-15 23:31:30.579 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/PersonalEmpresa/SystemUser/9 - null null
+2025-03-15 23:31:30.580 -05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)
+2025-03-15 23:31:30.580 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-15 23:31:30.580 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/PersonalEmpresa/SystemUser/9 - 401 0 null 1.2462ms
+2025-03-15 23:34:48.296 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:34:48.297 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:34:48.297 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:34:48.297 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:34:48.298 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:34:48.397 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 98.6227ms.
+2025-03-15 23:34:48.397 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:34:48.397 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 100.6284ms
+2025-03-15 23:34:48.397 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:34:48.397 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 101.2209ms
+2025-03-15 23:36:18.851 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 23:36:18.854 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:36:18.854 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:36:18.857 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 23:36:18.865 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:36:19.001 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 23:36:19.198 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:36:19.308 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:36:19.406 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:36:19.506 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 23:36:19.513 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 23:36:19.614 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:36:19.826 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:36:19.924 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:36:20.021 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:36:20.040 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1175.2184ms.
+2025-03-15 23:36:20.040 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 23:36:20.042 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1184.419ms
+2025-03-15 23:36:20.042 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:36:20.044 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1193.1382ms
+2025-03-15 23:36:22.718 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:36:22.718 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:36:22.718 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:36:22.718 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:36:22.719 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:36:22.817 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.8197ms.
+2025-03-15 23:36:22.817 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:36:22.817 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.4251ms
+2025-03-15 23:36:22.818 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:36:22.818 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 99.8883ms
+2025-03-15 23:36:32.545 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:36:32.545 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:36:32.545 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:36:32.545 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:36:32.548 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:36:32.645 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.6771ms.
+2025-03-15 23:36:32.645 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:36:32.645 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 100.033ms
+2025-03-15 23:36:32.646 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:36:32.646 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 100.4982ms
+2025-03-15 23:39:35.039 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/categoria/ - null null
+2025-03-15 23:39:35.042 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:39:35.043 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 23:39:35.047 -05:00 [INF] Route matched with {action = "Get", controller = "Categoria"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Boolean], System.Nullable`1[System.Boolean]) on controller ApiWeb.Controllers.CategoriaController (ApiWeb).
+2025-03-15 23:39:35.049 -05:00 [INF] Executing action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:39:35.154 -05:00 [INF] Executed action method ApiWeb.Controllers.CategoriaController.Get (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 105.7529ms.
+2025-03-15 23:39:35.155 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.CategoriaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:39:35.157 -05:00 [INF] Executed action ApiWeb.Controllers.CategoriaController.Get (ApiWeb) in 109.8335ms
+2025-03-15 23:39:35.157 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.CategoriaController.Get (ApiWeb)'
+2025-03-15 23:39:35.158 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/categoria/ - 200 798 application/json; charset=utf-8 119.1126ms
+2025-03-15 23:39:56.410 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:39:56.410 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:39:56.410 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:39:56.410 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:39:56.412 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:39:56.510 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.9185ms.
+2025-03-15 23:39:56.510 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:39:56.510 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.8405ms
+2025-03-15 23:39:56.510 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:39:56.510 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 100.4039ms
+2025-03-15 23:47:03.497 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:47:03.498 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:47:03.498 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:47:03.499 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:47:03.503 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:47:04.105 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 601.2059ms.
+2025-03-15 23:47:04.105 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:47:04.105 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 606.4458ms
+2025-03-15 23:47:04.105 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:47:04.105 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 607.9268ms
+2025-03-15 23:47:14.895 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:47:14.895 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:47:14.895 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:47:14.896 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:47:14.897 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:47:14.995 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.8594ms.
+2025-03-15 23:47:14.995 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:47:14.995 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.6938ms
+2025-03-15 23:47:14.995 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:47:14.995 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 100.2975ms
+2025-03-15 23:52:31.790 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:52:31.791 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:52:31.791 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:52:31.791 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:52:31.797 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:52:31.898 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 101.3229ms.
+2025-03-15 23:52:31.899 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:52:31.899 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 107.5379ms
+2025-03-15 23:52:31.899 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:52:31.899 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 108.7734ms
+2025-03-15 23:52:48.061 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 23:52:48.062 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:52:48.062 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:52:48.062 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 23:52:48.065 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:52:48.170 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 23:52:48.319 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:52:48.416 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:52:48.513 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:52:48.612 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 23:52:48.613 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 23:52:48.711 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:52:48.906 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:52:49.003 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:52:49.102 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:52:49.103 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1037.7077ms.
+2025-03-15 23:52:49.103 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 23:52:49.103 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1040.8162ms
+2025-03-15 23:52:49.103 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:52:49.103 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1042.1715ms
+2025-03-15 23:55:53.017 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:55:53.018 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:55:53.018 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:55:53.018 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:55:53.049 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:55:53.148 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.0902ms.
+2025-03-15 23:55:53.149 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:55:53.149 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 130.5256ms
+2025-03-15 23:55:53.149 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:55:53.149 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 131.9419ms
+2025-03-15 23:56:04.639 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 23:56:04.639 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:56:04.639 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:56:04.639 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 23:56:04.649 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:56:04.746 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 23:56:04.895 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:56:04.993 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:56:05.090 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:56:05.186 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 23:56:05.187 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 23:56:05.284 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:56:05.479 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:56:05.578 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:56:05.675 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:56:05.676 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1026.6488ms.
+2025-03-15 23:56:05.676 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 23:56:05.676 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1036.8375ms
+2025-03-15 23:56:05.676 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:56:05.676 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 392 application/json; charset=utf-8 1037.4202ms
+2025-03-15 23:56:42.409 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 23:56:42.409 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:56:42.409 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:56:42.409 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 23:56:42.411 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:56:42.508 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 23:56:42.656 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:56:42.753 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:56:42.853 -05:00 [INF] Executed DbCommand (100ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:56:42.950 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 23:56:42.951 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 23:56:43.050 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:56:43.249 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:56:43.346 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:56:43.443 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:56:43.443 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1032.5581ms.
+2025-03-15 23:56:43.443 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 23:56:43.443 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1034.0904ms
+2025-03-15 23:56:43.443 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:56:43.443 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1034.771ms
+2025-03-15 23:56:47.340 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - application/json null
+2025-03-15 23:56:47.340 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:56:47.340 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:56:47.340 -05:00 [INF] Route matched with {action = "GetPedidosPorMesa", controller = "EnTienda"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPedidosPorMesa() on controller ApiWeb.Controllers.EnTiendaController (ApiWeb).
+2025-03-15 23:56:47.342 -05:00 [INF] Executing action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:56:47.439 -05:00 [INF] Executed action method ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 97.131ms.
+2025-03-15 23:56:47.439 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RequestResponseModel.PedidoMesaResponse, RequestResponseModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-15 23:56:47.439 -05:00 [INF] Executed action ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb) in 99.2322ms
+2025-03-15 23:56:47.439 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.EnTiendaController.GetPedidosPorMesa (ApiWeb)'
+2025-03-15 23:56:47.439 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/EnTienda/pedido-mesa - 200 1066 application/json; charset=utf-8 99.6484ms
+2025-03-15 23:58:15.042 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 23:58:15.043 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:58:15.043 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:58:15.043 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 23:58:15.049 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:58:15.146 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 23:58:15.294 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:58:15.394 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:58:15.494 -05:00 [INF] Executed DbCommand (99ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:58:15.591 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 23:58:15.591 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 23:58:15.688 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:58:15.883 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:58:15.981 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:58:16.078 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:58:16.078 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1029.2489ms.
+2025-03-15 23:58:16.078 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 23:58:16.078 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1034.8428ms
+2025-03-15 23:58:16.078 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:58:16.078 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1036.1237ms
+2025-03-15 23:59:52.572 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - application/json; charset=utf-8 55
+2025-03-15 23:59:52.572 -05:00 [WRN] Usuario no autenticado.
+2025-03-15 23:59:52.572 -05:00 [INF] Executing endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:59:52.572 -05:00 [INF] Route matched with {action = "Login", controller = "AuthUser"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RequestResponseModel.AutenticacionResponse]] Login(DTO.LoginDTO, Boolean) on controller ApiWeb.Controllers.AuthUserController (ApiWeb).
+2025-03-15 23:59:52.574 -05:00 [INF] Executing action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb) - Validation state: "Valid"
+2025-03-15 23:59:52.672 -05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 23:59:52.824 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:59:52.921 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:59:53.018 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-15 23:59:53.115 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-15 23:59:53.115 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 23:59:53.213 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:59:53.414 -05:00 [INF] Executed DbCommand (104ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EsPersonal], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 23:59:53.512 -05:00 [INF] Executed DbCommand (96ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 23:59:53.609 -05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 23:59:53.610 -05:00 [INF] Executed action method ApiWeb.Controllers.AuthUserController.Login (ApiWeb), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1035.7181ms.
+2025-03-15 23:59:53.610 -05:00 [INF] Executing ObjectResult, writing value of type 'RequestResponseModel.AutenticacionResponse'.
+2025-03-15 23:59:53.610 -05:00 [INF] Executed action ApiWeb.Controllers.AuthUserController.Login (ApiWeb) in 1037.67ms
+2025-03-15 23:59:53.610 -05:00 [INF] Executed endpoint 'ApiWeb.Controllers.AuthUserController.Login (ApiWeb)'
+2025-03-15 23:59:53.610 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/AuthUser/login?esPersonal=true - 200 393 application/json; charset=utf-8 1038.198ms
