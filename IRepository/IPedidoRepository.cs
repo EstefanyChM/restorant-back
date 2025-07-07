@@ -15,9 +15,9 @@ namespace IRepository
 		Task<List<PedidoDelUsuarioResponse>> GetPedidosMozoFiltrado(int idUser, int? idProducto, DateTime? fechaInicio, DateTime? fechaFin);
 
 		Task<List<Pedido>> GeAllCocina(bool PreparacionFinalizada);
+		Task<DetallePedido> GetByIdDetallePedido(int idDetallePedido);
 
-
-
+		Task<DetallePedido> UpdateDetallePedido(DetallePedido detallePedido);
 
 	}
 }

@@ -10,6 +10,22 @@ namespace Repository
 {
 	public class PedidoRepository : CRUDRepository<Pedido>, IPedidoRepository
 	{
+		public PedidoRepository(_dbRiccosContext context) : base(context)
+		{
+		}
+
+
+
+		public Task<DetallePedido> UpdateDetallePedido(DetallePedido detallePedido)
+		{
+			throw new NotImplementedException();
+		}
+
+		public Task<DetallePedido> GetByIdDetallePedido(int idDetallePedido)
+		{
+			throw new NotImplementedException();
+		}
+
 		public async Task<List<Pedido>> GeAllCocina(bool PreparacionFinalizada)
 		{
 			List<Pedido> pedidos = await dbSet
@@ -85,6 +101,8 @@ namespace Repository
 		}
 
 
+
+
 		/*public async Task<List<Pedido>> GetPedidosMozoFiltrado(int idUser, int? idProducto, DateTime? fechaInicio, DateTime? fechaFin)
 		{
 			List<Pedido> pedidos = await dbSet
@@ -100,19 +118,19 @@ namespace Repository
 
 		public async Task<List<PedidoDelUsuarioResponse>> GetPedidosMozoFiltrado(int idUser, int? idProducto, DateTime? fechaInicio, DateTime? fechaFin)
 		{
-            /*select  *, T_DP.Id idDP , T_V.Id idV from [pedido].[DetallePedido] T_DP
+			/*select  *, T_DP.Id idDP , T_V.Id idV from [pedido].[DetallePedido] T_DP
 join [venta].[Venta] T_V on T_DP.IdPedido = T_V.IdPedido where T_DP.IdUsuarioSistema=6;*/
 
 
-            TimeZoneInfo peruTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SA Pacific Standard Time");
-            DateTime nowInPeru = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, peruTimeZone);
+			TimeZoneInfo peruTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SA Pacific Standard Time");
+			DateTime nowInPeru = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, peruTimeZone);
 
-            // Si fechaInicio o fechaFin son null, usar la fecha actual del servidor en Perú
-            fechaInicio ??= nowInPeru.Date; // Inicio del día actual
-            fechaFin ??= nowInPeru.Date.AddDays(1).AddSeconds(-1); // Fin del día actual
+			// Si fechaInicio o fechaFin son null, usar la fecha actual del servidor en Perú
+			fechaInicio ??= nowInPeru.Date; // Inicio del día actual
+			fechaFin ??= nowInPeru.Date.AddDays(1).AddSeconds(-1); // Fin del día actual
 
 
-            var query = from dp in db.DetallePedidos
+			var query = from dp in db.DetallePedidos
 						join v in db.Ventas on dp.IdPedido equals v.IdPedido
 						join pro in db.Productos on dp.IdProducto equals pro.Id
 						where dp.IdUsuarioSistema == idUser
@@ -129,8 +147,6 @@ join [venta].[Venta] T_V on T_DP.IdPedido = T_V.IdPedido where T_DP.IdUsuarioSis
 			var response = await query.ToListAsync();
 			return response;
 		}
-
-
 
 		public Pedido ObtenerPedidoConNombreDelProducto(int id)
 		{

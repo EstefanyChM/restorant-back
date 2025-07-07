@@ -10,7 +10,9 @@ namespace Repository
 {
 	public class ClienteRepository : CRUDRepository<Cliente>, IClienteRepository
 	{
-		
+		public ClienteRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
 
 		public GenericFilterResponse<Cliente> GetByFilter(GenericFilterRequest request)
 		{
@@ -148,22 +150,22 @@ namespace Repository
 		public Cliente ObtenerClientePorIdPersona(int IdPersona, int IdTipoPersona)
 		{
 			if (IdTipoPersona == 1)
-			{ 
-				Cliente cliente =dbSet.FirstOrDefault(x => x.IdTablaPersonaNatural == IdPersona && x.IdTipoPersona == IdTipoPersona);//Obtén al cliente con ese Id dePersona y el tipodePErsona, porque puede ser del otro tipo
+			{
+				Cliente cliente = dbSet.FirstOrDefault(x => x.IdTablaPersonaNatural == IdPersona && x.IdTipoPersona == IdTipoPersona);//Obtén al cliente con ese Id dePersona y el tipodePErsona, porque puede ser del otro tipo
 
-			return cliente;
+				return cliente;
 			}
 			else
 			{
 				Cliente cliente = dbSet.FirstOrDefault(x => x.IdTablaPersonaJuridica == IdPersona && x.IdTipoPersona == IdTipoPersona);
 
-			return cliente;
+				return cliente;
 			}
 		}
 
 		public int Update(object id)
 		{
-            Cliente entityToDelete = dbSet.Find(id);
+			Cliente entityToDelete = dbSet.Find(id);
 			entityToDelete.Estado = false;
 			dbSet.Update(entityToDelete);
 			return db.SaveChanges();

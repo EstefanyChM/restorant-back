@@ -13,8 +13,10 @@ namespace IBussnies
 		//PA PATCH
 
 		Task<List<CategoriaResponse>> GetAllActive();
-        Task<GenericFilterResponse<CategoriaResponse>> GetByFilteDependingRole(GenericFilterRequest request, string userRole);
-        Task<CategoriaResponse> GetById(int id);
+		Task<GenericFilterResponse<CategoriaResponse>> GetByFilteDependingRole(GenericFilterRequest request, string userRole);
+		Task<CategoriaResponse> GetById(int id);
+		Task<CategoriaResponse> GetByName(string nombreCategoria);
 
-    }
+
+	}
 }

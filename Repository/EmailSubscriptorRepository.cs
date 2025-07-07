@@ -7,48 +7,52 @@ using System.Collections.Generic;
 
 namespace Repository
 {
-    public class EmailSuscriptorRepository : CRUDRepository<EmailSuscriptor>, IEmailSuscriptorRepository
-    {
-        public async Task<List<string>> ObtenerSuscriptoresActivos()
-        {
-            IQueryable<string> emailsActivos = dbSet
-                .Where(s => s.Estado)
-                .Select(s => s.Email); 
+	public class EmailSuscriptorRepository : CRUDRepository<EmailSuscriptor>, IEmailSuscriptorRepository
+	{
+		public EmailSuscriptorRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
 
-            return await emailsActivos.ToListAsync();
-        }
+		public async Task<List<string>> ObtenerSuscriptoresActivos()
+		{
+			IQueryable<string> emailsActivos = dbSet
+				.Where(s => s.Estado)
+				.Select(s => s.Email);
+
+			return await emailsActivos.ToListAsync();
+		}
 
 
-        public GenericFilterResponse<EmailSuscriptor> GetByFilter(GenericFilterRequest request)
-        {
-            IQueryable<EmailSuscriptor> query =  dbSet ;
+		public GenericFilterResponse<EmailSuscriptor> GetByFilter(GenericFilterRequest request)
+		{
+			IQueryable<EmailSuscriptor> query = dbSet;
 
-            request.Filtros.ForEach(j =>
-            {
-                if (!string.IsNullOrEmpty(j.Value))
-                {
-                    switch (j.Name)
-                    {
-                        case "id":
-                            query = query.Where(x => x.Id == short.Parse(j.Value));
-                            break;
-                            
-                        case "nombre":
-                            query = query.Where(x => x.Nombre.ToLower().Contains(j.Value.ToLower()));
-                            break;
-                    }
-                }
-            });
+			request.Filtros.ForEach(j =>
+			{
+				if (!string.IsNullOrEmpty(j.Value))
+				{
+					switch (j.Name)
+					{
+						case "id":
+							query = query.Where(x => x.Id == short.Parse(j.Value));
+							break;
 
-            GenericFilterResponse<EmailSuscriptor> res = new GenericFilterResponse<EmailSuscriptor>();
+						case "nombre":
+							query = query.Where(x => x.Nombre.ToLower().Contains(j.Value.ToLower()));
+							break;
+					}
+				}
+			});
 
-            res.TotalRegistros = query.Count();
+			GenericFilterResponse<EmailSuscriptor> res = new GenericFilterResponse<EmailSuscriptor>();
 
-            res.Lista = query
+			res.TotalRegistros = query.Count();
 
-                .Skip((request.NumeroPagina - 1) * request.Cantidad).Take(request.Cantidad)
-                .ToList();
-            return res;
-        }
-    }
+			res.Lista = query
+
+				.Skip((request.NumeroPagina - 1) * request.Cantidad).Take(request.Cantidad)
+				.ToList();
+			return res;
+		}
+	}
 }

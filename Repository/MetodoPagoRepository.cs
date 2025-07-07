@@ -9,6 +9,10 @@ namespace Repository
 {
 	public class MetodoPagoRepository : CRUDRepository<MetodoPago>, IMetodoPagoRepository
 	{
+		public MetodoPagoRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		public GenericFilterResponse<MetodoPago> GetByFilter(GenericFilterRequest request)
 		{
 			var query = dbSet.Where(x => x.Id == x.Id);

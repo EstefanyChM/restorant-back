@@ -18,10 +18,11 @@ namespace Bussnies
 		#region DECLARACIÓN DE VARIABLES Y CONSTRUCTOR / DISPOSE
 		private readonly IMetodoPagoRepository _MetodoPagoRepository;
 		private readonly IMapper _mapper;
-		public MetodoPagoBussnies(IMapper mapper)
+
+		public MetodoPagoBussnies(IMapper mapper, IMetodoPagoRepository metodoPagoRepository)
 		{
 			_mapper = mapper;
-			_MetodoPagoRepository = new MetodoPagoRepository();
+			_MetodoPagoRepository = metodoPagoRepository;
 		}
 
 
@@ -44,7 +45,7 @@ namespace Bussnies
 
 		public async Task<MetodoPagoResponse> GetById(int id)
 		{
-			MetodoPago MetodoPago =await _MetodoPagoRepository.GetById(id);
+			MetodoPago MetodoPago = await _MetodoPagoRepository.GetById(id);
 			MetodoPagoResponse resul = _mapper.Map<MetodoPagoResponse>(MetodoPago);
 			return resul;
 		}
@@ -62,7 +63,7 @@ namespace Bussnies
 			MetodoPago MetodoPago = _mapper.Map<MetodoPago>(entity);
 
 
-			MetodoPago =await _MetodoPagoRepository.Create(MetodoPago);
+			MetodoPago = await _MetodoPagoRepository.Create(MetodoPago);
 			MetodoPagoResponse result = _mapper.Map<MetodoPagoResponse>(MetodoPago);
 			return result;
 		}
@@ -77,7 +78,7 @@ namespace Bussnies
 		public async Task<MetodoPagoResponse> Update(MetodoPagoRequest entity)
 		{
 			MetodoPago MetodoPago = _mapper.Map<MetodoPago>(entity);
-			MetodoPago =await _MetodoPagoRepository.Update(MetodoPago);
+			MetodoPago = await _MetodoPagoRepository.Update(MetodoPago);
 			MetodoPagoResponse result = _mapper.Map<MetodoPagoResponse>(MetodoPago);
 			return result;
 		}
@@ -99,7 +100,7 @@ namespace Bussnies
 		public async Task<int> DeleteMultipleItems(List<MetodoPagoRequest> lista)
 		{
 			List<MetodoPago> MetodoPagos = _mapper.Map<List<MetodoPago>>(lista);
-			int cantidad =await	_MetodoPagoRepository.DeleteMultipleItems(MetodoPagos);
+			int cantidad = await _MetodoPagoRepository.DeleteMultipleItems(MetodoPagos);
 			return cantidad;
 		}
 

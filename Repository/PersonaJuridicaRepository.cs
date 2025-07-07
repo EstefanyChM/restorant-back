@@ -13,6 +13,10 @@ namespace Repository
 {
 	public class PersonaJuridicaRepository : CRUDRepository<PersonaJuridica>, IPersonaJuridicaRepository
 	{
+		public PersonaJuridicaRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		public GenericFilterResponse<PersonaJuridica> GetByFilter(GenericFilterRequest request)
 		{
 			throw new NotImplementedException();

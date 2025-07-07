@@ -39,6 +39,7 @@ namespace Bussnies
 		private readonly IMensajeContactoRepository _mensajeContactoRepository;
 		private readonly IEmpresaRepository _empresaRepository;
 		private readonly IPedidoRepository _pedidoRepository;
+		private readonly IMetodoPagoRepository _metodoPagoRepository;
 
 		public ChatbotWebhookBusiness(
 			IProductoRepository productoRepository,
@@ -48,7 +49,8 @@ namespace Bussnies
 			IPromocionRepository promocionRepository,
 			IMensajeContactoRepository mensajeContactoRepository,
 			IEmpresaRepository empresaRepository,
-			IPedidoRepository pedidoRepository)
+			IPedidoRepository pedidoRepository,
+			IMetodoPagoRepository metodoPagoRepository)
 		{
 			_productoRepository = productoRepository;
 			_horarioAtencionRepository = horarioAtencionRepository;
@@ -58,6 +60,7 @@ namespace Bussnies
 			_mensajeContactoRepository = mensajeContactoRepository;
 			_empresaRepository = empresaRepository;
 			_pedidoRepository = pedidoRepository;
+			_metodoPagoRepository = metodoPagoRepository;
 		}
 
 
@@ -355,7 +358,11 @@ namespace Bussnies
 		public async Task<object> MetodosPago()
 		{
 			// Obtener la lista de métodos de pago activos
-			List<MetodoPago> metodoPagos = await new CRUDRepository<MetodoPago>().GetAllQueryable()
+			/*List<MetodoPago> metodoPagos = await new CRUDRepository<MetodoPago>().GetAllQueryable()
+				.Where(mp => mp.Estado == true)
+				.ToListAsync();*/
+
+			List<MetodoPago> metodoPagos = await _metodoPagoRepository.GetAllQueryable()
 				.Where(mp => mp.Estado == true)
 				.ToListAsync();
 

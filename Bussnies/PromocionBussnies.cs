@@ -33,13 +33,14 @@ namespace Bussnies
 		private readonly IServicioEmailSendGrid _servicioEmailSendGrid;
 		private readonly IProductoRepository _productoRepository;
 
-		public PromocionBussnies(IMapper mapper, IFilesServices filesServices, IServicioEmailSendGrid servicioEmailSendGrid, IProductoRepository productoRepository)
+		public PromocionBussnies(IMapper mapper, IFilesServices filesServices, IServicioEmailSendGrid servicioEmailSendGrid, IProductoRepository productoRepository,
+			IPromocionRepository promocionRepository)
 		{
 			_mapper = mapper;
 			_filesServices = filesServices;
 			_servicioEmailSendGrid = servicioEmailSendGrid;
 			_productoRepository = productoRepository;
-			_promocionRepository = new PromocionRepository();
+			_promocionRepository = promocionRepository;
 		}
 
 		public void Dispose()
@@ -62,7 +63,9 @@ namespace Bussnies
 
 		public async Task EnviarCorreosMasivos(int id)
 		{
-			List<EmailSuscriptor> listaEmailSuscriptor = await new CRUDRepository<EmailSuscriptor>().GetAll();
+			//List<EmailSuscriptor> listaEmailSuscriptor = await new CRUDRepository<EmailSuscriptor>().GetAll();
+
+			List<EmailSuscriptor> listaEmailSuscriptor = await _promocionRepository.obtenerSubscriptores();
 
 			List<string> correosActivos = listaEmailSuscriptor
 			.Where(s => s.Estado == true)

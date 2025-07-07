@@ -9,11 +9,15 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class PickupRepository : CRUDRepository<Pickup>, IPickupRepository
-    {
-        public GenericFilterResponse<Pickup> GetByFilter(GenericFilterRequest request)
-        {
-            throw new NotImplementedException();
-        }
-    }
+	public class PickupRepository : CRUDRepository<Pickup>, IPickupRepository
+	{
+		public PickupRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
+		public GenericFilterResponse<Pickup> GetByFilter(GenericFilterRequest request)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

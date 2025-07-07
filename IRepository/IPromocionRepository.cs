@@ -11,5 +11,8 @@ namespace IRepository
 	public interface IPromocionRepository : ICRUDRepository<Promocion>
 	{
 		Task<List<DetallesPromocion>> obtenerLosDPDeLaPromo(int Id);
+
+		Task<List<EmailSuscriptor>> obtenerSubscriptores();
+
 	}
 }

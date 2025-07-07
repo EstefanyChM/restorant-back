@@ -8,49 +8,53 @@ using System.Net.Sockets;
 
 namespace Repository
 {
-    public class CarritoRepository : CRUDRepository<Carrito>, ICarritoRepository
-    {
-        public GenericFilterResponse<Carrito> GetByFilter(GenericFilterRequest request)
-        {
-            //if (request.Filtros[1].Value == "") request.Filtros[1].Value = "true";
+	public class CarritoRepository : CRUDRepository<Carrito>, ICarritoRepository
+	{
+		public CarritoRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
 
-           var query = dbSet.Where(x => x.Id == x.Id);
+		public GenericFilterResponse<Carrito> GetByFilter(GenericFilterRequest request)
+		{
+			//if (request.Filtros[1].Value == "") request.Filtros[1].Value = "true";
 
-            request.Filtros.ForEach(j =>
-            {
-                if (!string.IsNullOrEmpty(j.Value))
-                {
-                    switch (j.Name)
-                    {
-                        case "id":
-                            query = query.Where(x => x.Id == short.Parse(j.Value));
-                            break;
+			var query = dbSet.Where(x => x.Id == x.Id);
 
-                       /* case "nombre":
-                            query = query.Where(x => x.Nombre.ToLower().Contains(j.Value.ToLower()));
-                            break;
+			request.Filtros.ForEach(j =>
+			{
+				if (!string.IsNullOrEmpty(j.Value))
+				{
+					switch (j.Name)
+					{
+						case "id":
+							query = query.Where(x => x.Id == short.Parse(j.Value));
+							break;
 
-                        case "disponibilidad":
-                            query = query.Where(x => x.Disponibilidad == bool.Parse(j.Value));
-                            break;
+							/* case "nombre":
+								 query = query.Where(x => x.Nombre.ToLower().Contains(j.Value.ToLower()));
+								 break;
 
-                        case "estado":
-                            query = query.Where(x => x.Estado == bool.Parse(j.Value));
-                            break;*/
-                    }
-                }
-            });
+							 case "disponibilidad":
+								 query = query.Where(x => x.Disponibilidad == bool.Parse(j.Value));
+								 break;
 
-            GenericFilterResponse<Carrito> res = new GenericFilterResponse<Carrito>();
+							 case "estado":
+								 query = query.Where(x => x.Estado == bool.Parse(j.Value));
+								 break;*/
+					}
+				}
+			});
 
-            res.TotalRegistros = query.Count();
+			GenericFilterResponse<Carrito> res = new GenericFilterResponse<Carrito>();
 
-            res.Lista = query
-                //.Include(mc => mc.IdCategoriaNavigation)
-                .Skip((request.NumeroPagina - 1) * request.Cantidad).Take(request.Cantidad)
-                .ToList();
+			res.TotalRegistros = query.Count();
 
-            return res;
-        }
-    }
+			res.Lista = query
+				//.Include(mc => mc.IdCategoriaNavigation)
+				.Skip((request.NumeroPagina - 1) * request.Cantidad).Take(request.Cantidad)
+				.ToList();
+
+			return res;
+		}
+	}
 }

@@ -10,17 +10,21 @@ namespace Repository
 {
 	public class MesaRepository : CRUDRepository<Mesa>, IMesaRepository
 	{
-        public GenericFilterResponse<Mesa> GetByFilter(GenericFilterRequest request)
+		public MesaRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
+		public GenericFilterResponse<Mesa> GetByFilter(GenericFilterRequest request)
 		{
 			throw new NotImplementedException();
 		}
 
-        public async Task<List<Mesa>> GetMesasEnTienda()
-        {
-            var a =  db.Set<Mesa>().ToList();
-            return  a;
-        }
+		public async Task<List<Mesa>> GetMesasEnTienda()
+		{
+			var a = db.Set<Mesa>().ToList();
+			return a;
+		}
 
 
-    }
+	}
 }

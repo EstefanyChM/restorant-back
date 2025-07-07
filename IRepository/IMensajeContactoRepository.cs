@@ -9,15 +9,16 @@ using System.Threading.Tasks;
 
 namespace IRepository
 {
-    public interface IMensajeContactoRepository : ICRUDRepository<MensajeContacto>
-    {
-        Task<List<MensajeContacto>> GetAllConDetalles();
+	public interface IMensajeContactoRepository : ICRUDRepository<MensajeContacto>
+	{
+		Task<List<MensajeContacto>> GetAllConDetalles();
 
 
-        /*****************************************/
-        public Remite ObtenerRemitentePorId(int idRemitente);
+		/*****************************************/
+		public Remite ObtenerRemitentePorId(int idRemitente);
+		public Task<Remite> CrearRemitente(Remite remite);
 
-        /***************************/
-        
-    }
+		/***************************/
+
+	}
 }

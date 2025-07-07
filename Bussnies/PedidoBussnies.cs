@@ -27,13 +27,14 @@ namespace Bussnies
 
 		public PedidoBussnies(IMapper mapper,
 			IProductoRepository productoRepository, IUsuarioSistemaRepository usuarioSistemaRepository,
-			IPromocionRepository promocionRepository)
+			IPromocionRepository promocionRepository,
+			IPedidoRepository pedidoRepository)
 		{
 			_mapper = mapper;
 			_productoRepository = productoRepository;
 			_usuarioSistemaRepository = usuarioSistemaRepository;
 			_promocionRepository = promocionRepository;
-			_PedidoRepository = new PedidoRepository();
+			_PedidoRepository = pedidoRepository;
 			//_DetallePedidoRepository = new DetallePedidoRepository();
 
 		}
@@ -258,11 +259,15 @@ namespace Bussnies
 
 		public async Task<DetallePedido> UpdateEstadoPreparacion(int idDetallePedido)
 		{
-			DetallePedido detallePedido = await new CRUDRepository<DetallePedido>().GetById(idDetallePedido);
+			//DetallePedido detallePedido = await new CRUDRepository<DetallePedido>().GetById(idDetallePedido);
+
+			DetallePedido detallePedido = await _PedidoRepository.GetByIdDetallePedido(idDetallePedido);
 
 			detallePedido.EstadoPreparacion = true;
 
-			await new CRUDRepository<DetallePedido>().Update(detallePedido);
+			//await new CRUDRepository<DetallePedido>().Update(detallePedido);
+			await _PedidoRepository.UpdateDetallePedido(detallePedido);
+
 
 
 			return _mapper.Map<DetallePedido>(detallePedido);

@@ -10,6 +10,10 @@ namespace Repository
 {
 	public class AsuntoMensajeRepository : CRUDRepository<Asunto>, IAsuntoMensajeRepository
 	{
+		public AsuntoMensajeRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		public GenericFilterResponse<Asunto> GetByFilter(GenericFilterRequest request)
 		{
 			throw new NotImplementedException();

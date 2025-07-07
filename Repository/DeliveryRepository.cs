@@ -11,6 +11,10 @@ namespace Repository
 {
 	public class DeliveryRepository : CRUDRepository<Delivery>, IDeliveryRepository
 	{
+		public DeliveryRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		public GenericFilterResponse<Delivery> GetByFilter(GenericFilterRequest request)
 		{
 			throw new NotImplementedException();

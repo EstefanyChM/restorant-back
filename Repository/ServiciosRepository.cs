@@ -10,6 +10,10 @@ namespace Repository
 {
 	public class ServiciosRepository : CRUDRepository<Service>, IServiciosRepository
 	{
+		public ServiciosRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		public GenericFilterResponse<Service> GetByFilter(GenericFilterRequest request)
 		{
 			throw new NotImplementedException();

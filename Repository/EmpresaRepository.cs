@@ -10,6 +10,10 @@ namespace Repository
 {
 	public class EmpresaRepository : CRUDRepository<Empresa>, IEmpresaRepository
 	{
+		public EmpresaRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		public GenericFilterResponse<Empresa> GetByFilter(GenericFilterRequest request)
 		{
 			throw new NotImplementedException();

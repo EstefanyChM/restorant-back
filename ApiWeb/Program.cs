@@ -26,9 +26,9 @@ using System.Security.Claims;
 
 
 Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Information()
-    .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
-    .CreateLogger();
+	.MinimumLevel.Information()
+	.WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
+	.CreateLogger();
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -46,12 +46,12 @@ builder.Logging.AddDebug();
 
 // CONFIGURACI�N DE JSON
 builder.Services
-    .AddControllers()
-    .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles)
-    .AddNewtonsoftJson(options =>
-        {
-            options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-        });
+	.AddControllers()
+	.AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles)
+	.AddNewtonsoftJson(options =>
+		{
+			options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+		});
 
 
 
@@ -65,8 +65,6 @@ QuestPDF.Settings.License = LicenseType.Community;
 //INYECCI�N DE DEPENDENCIAS ENTRE Interfaz y su implementaci�n
 builder.Services.AddScoped<IChatbotWebhookBusiness, ChatbotWebhookBusiness>();
 //jejej prometo voy a llamr a los otros busines
-builder.Services.AddScoped<IChatbotWebhookBusiness, ChatbotWebhookBusiness>();
-
 /*******************************/
 builder.Services.AddScoped<IAuthUserBusiness, AuthUserBusiness>();
 builder.Services.AddScoped<IOnlineUserBusiness, OnlineUserBusiness>();
@@ -75,6 +73,7 @@ builder.Services.AddScoped<IPersonaNaturalRepository, PersonaNaturalRepository>(
 builder.Services.AddScoped<IPersonaNaturalBussnies, PersonaNaturalBussnies>();
 
 builder.Services.AddScoped<IPersonaJuridicaBussnies, PersonaJuridicaBussnies>();
+builder.Services.AddScoped<IPersonaJuridicaRepository, PersonaJuridicaRepository>();
 
 
 builder.Services.AddScoped<IPersonalEmpresaRepository, PersonalEmpresaRepository>();
@@ -128,6 +127,10 @@ builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
 
 builder.Services.AddScoped<IMensajeBusiness, MensajeBusiness>();
 
+builder.Services.AddScoped<IMetodoPagoRepository, MetodoPagoRepository>();
+
+
+
 builder.Services.AddScoped<IVentaRepository, VentaRepository>();
 builder.Services.AddScoped<IVentaBussnies, VentaBussnies>();
 
@@ -171,12 +174,12 @@ builder.Services.AddSingleton<IApisPeruServices, ApisPeruServices>();
 // CONFIGURACI�N DEL CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
-    {
-        builder.AllowAnyOrigin();
-        builder.AllowAnyMethod(); // GET, POST, PUT, DELETE, PATCH
-        builder.AllowAnyHeader();
-    });
+	options.AddPolicy("AllowAll", builder =>
+	{
+		builder.AllowAnyOrigin();
+		builder.AllowAnyMethod(); // GET, POST, PUT, DELETE, PATCH
+		builder.AllowAnyHeader();
+	});
 });
 
 
@@ -184,72 +187,72 @@ builder.Services.AddCors(options =>
 
 // JWT IMPLEMENTACI�N
 builder.Services
-    .AddHttpContextAccessor()
-    .AddAuthorization()
-    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = false,
-            ValidateAudience = false,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            //IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["llavejwt"])),
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["llavejwt"])),
-            RoleClaimType = ClaimTypes.Role, // Indicar que los roles vienen con esta clave
+	.AddHttpContextAccessor()
+	.AddAuthorization()
+	.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+	.AddJwtBearer(options =>
+	{
+		options.TokenValidationParameters = new TokenValidationParameters
+		{
+			ValidateIssuer = false,
+			ValidateAudience = false,
+			ValidateLifetime = true,
+			ValidateIssuerSigningKey = true,
+			//IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["llavejwt"])),
+			IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["llavejwt"])),
+			RoleClaimType = ClaimTypes.Role, // Indicar que los roles vienen con esta clave
 
-            ClockSkew = TimeSpan.Zero,
+			ClockSkew = TimeSpan.Zero,
 
-        };
-    });
+		};
+	});
 
 
 
 // CONFIGURACI�N DE SWAGGER
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
+	c.SwaggerDoc("v1", new OpenApiInfo
+	{
 
-        Title = "WebAPIRiccos ",
-        Version = "v1",
-        Description = "APIs para Ricco's",
-        Contact = new OpenApiContact
-        {
-            Name = "xxxxx",
-            Email = "yyyyy",
-            Url = new Uri("https://www.linkedin.com"),
-        },
-    });
+		Title = "WebAPIRiccos ",
+		Version = "v1",
+		Description = "APIs para Ricco's",
+		Contact = new OpenApiContact
+		{
+			Name = "xxxxx",
+			Email = "yyyyy",
+			Url = new Uri("https://www.linkedin.com"),
+		},
+	});
 
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Name = "Authorization",
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
-        In = ParameterLocation.Header
-    });
+	c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+	{
+		Name = "Authorization",
+		Type = SecuritySchemeType.ApiKey,
+		Scheme = "Bearer",
+		BearerFormat = "JWT",
+		In = ParameterLocation.Header
+	});
 
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[]{}
-        }
-    });
+	c.AddSecurityRequirement(new OpenApiSecurityRequirement
+	{
+		{
+			new OpenApiSecurityScheme
+			{
+				Reference = new OpenApiReference
+				{
+					Type = ReferenceType.SecurityScheme,
+					Id = "Bearer"
+				}
+			},
+			new string[]{}
+		}
+	});
 
-    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+	var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+	var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+	c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
 });
 
 
@@ -266,10 +269,10 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("EsAdmin", policy => policy.RequireRole("Administrador"));
-    options.AddPolicy("EsVendedor", policy => policy.RequireRole("Vendedor"));
-    options.AddPolicy("EsMozo", policy => policy.RequireRole("Mozo"));
-    options.AddPolicy("EsCocinero", policy => policy.RequireRole("Cocina"));
+	options.AddPolicy("EsAdmin", policy => policy.RequireRole("Administrador"));
+	options.AddPolicy("EsVendedor", policy => policy.RequireRole("Vendedor"));
+	options.AddPolicy("EsMozo", policy => policy.RequireRole("Mozo"));
+	options.AddPolicy("EsCocinero", policy => policy.RequireRole("Cocina"));
 });
 
 
@@ -281,9 +284,9 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly, typeof(AutoMapperProfil
 
 
 builder.Services
-    .AddIdentity<ApplicationUser, ApplicationRole>()
-    .AddEntityFrameworkStores<_dbRiccosContext>()
-    .AddDefaultTokenProviders();
+	.AddIdentity<ApplicationUser, ApplicationRole>()
+	.AddEntityFrameworkStores<_dbRiccosContext>()
+	.AddDefaultTokenProviders();
 
 builder.Services.AddApplicationInsightsTelemetry();
 
@@ -317,28 +320,28 @@ var app = builder.Build();
 // CONFIGURACI�N DEL PIPELINE DE HTTP
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+	app.UseSwagger();
+	app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 app.Use(async (context, next) =>
 {
-    Console.WriteLine(" Middleware de autenticación ejecutándose...");
-    var authHeader = context.Request.Headers["Authorization"].FirstOrDefault();
+	Console.WriteLine(" Middleware de autenticación ejecutándose...");
+	var authHeader = context.Request.Headers["Authorization"].FirstOrDefault();
 
-    if (authHeader != null)
-    {
-        Console.WriteLine($" Token recibido: {authHeader}");
-    }
-    else
-    {
-        Console.WriteLine(" No se recibió token");
-    }
+	if (authHeader != null)
+	{
+		Console.WriteLine($" Token recibido: {authHeader}");
+	}
+	else
+	{
+		Console.WriteLine(" No se recibió token");
+	}
 
-    await next();
-    Console.WriteLine($"📢 Estado de la respuesta: {context.Response.StatusCode}");
+	await next();
+	Console.WriteLine($"📢 Estado de la respuesta: {context.Response.StatusCode}");
 });
 
 app.UseAuthentication();

@@ -10,57 +10,61 @@ namespace Repository
 {
 	public class ProductoRepository : CRUDRepository<Producto>, IProductoRepository
 	{
+		public ProductoRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		/* public async Task<GenericFilterResponse<Producto>> GetByFilteDependingRole(GenericFilterRequest request, string userRole)
+ {
+	 decimal minPrice = Convert.ToDecimal(request.Filtros[0].Value);
+
+	 decimal maxPrice =  Convert.ToDecimal(request.Filtros[1].Value);
+
+	 IQueryable<Producto> query = userRole == "Administrador"
+		 ? dbSet.Where(x => x.IdCategoriaNavigation.Estado == true && x.Precio >= minPrice && x.Precio <= maxPrice)
+		 : dbSet.Where(x => x.Estado == true && x.IdCategoriaNavigation.Estado == true && x.Precio >=   minPrice   &&    x.Precio <= maxPrice);
+
+
+	 request.Filtros.ForEach(j =>
+	 {
+		 if (!string.IsNullOrEmpty(j.Value))
 		 {
-			 decimal minPrice = Convert.ToDecimal(request.Filtros[0].Value);
-
-			 decimal maxPrice =  Convert.ToDecimal(request.Filtros[1].Value);
-
-			 IQueryable<Producto> query = userRole == "Administrador"
-				 ? dbSet.Where(x => x.IdCategoriaNavigation.Estado == true && x.Precio >= minPrice && x.Precio <= maxPrice)
-				 : dbSet.Where(x => x.Estado == true && x.IdCategoriaNavigation.Estado == true && x.Precio >=   minPrice   &&    x.Precio <= maxPrice);
-
-
-			 request.Filtros.ForEach(j =>
+			 switch (j.Name)
 			 {
-				 if (!string.IsNullOrEmpty(j.Value))
-				 {
-					 switch (j.Name)
-					 {
-						 case "id":
-							 query = query.Where(x => x.Id == short.Parse(j.Value));
-							 break;
+				 case "id":
+					 query = query.Where(x => x.Id == short.Parse(j.Value));
+					 break;
 
-						 case "nombre":
-							 query = query.Where(x => x.Nombre.ToLower().Contains(j.Value.ToLower()));
-							 break;
+				 case "nombre":
+					 query = query.Where(x => x.Nombre.ToLower().Contains(j.Value.ToLower()));
+					 break;
 
-						 case "disponibilidad":
-							 query = query.Where(x => x.Disponibilidad == bool.Parse(j.Value));
-							 break;
-						 case "estado":
-							 query = query.Where(x => x.Estado == bool.Parse(j.Value));
-							 break;
-						 case "idCategoria":
-							 query = query.Where(x => x.IdCategoriaNavigation.Id == short.Parse(j.Value));
-							 break;
-					 }
-				 }
-			 });
-
-			 GenericFilterResponse<Producto> res = new GenericFilterResponse<Producto>();
-
-			 res.TotalRegistros = query.Count();
-
-			 res.Lista = query
-				 .Include(mc => mc.IdCategoriaNavigation)
-				 .Skip((request.NumeroPagina - 1) * request.Cantidad).Take(request.Cantidad)
-				 .OrderBy(x => x.Nombre)
-				 .ToList();
-
-			 return res;
+				 case "disponibilidad":
+					 query = query.Where(x => x.Disponibilidad == bool.Parse(j.Value));
+					 break;
+				 case "estado":
+					 query = query.Where(x => x.Estado == bool.Parse(j.Value));
+					 break;
+				 case "idCategoria":
+					 query = query.Where(x => x.IdCategoriaNavigation.Id == short.Parse(j.Value));
+					 break;
+			 }
 		 }
-		 */
+	 });
+
+	 GenericFilterResponse<Producto> res = new GenericFilterResponse<Producto>();
+
+	 res.TotalRegistros = query.Count();
+
+	 res.Lista = query
+		 .Include(mc => mc.IdCategoriaNavigation)
+		 .Skip((request.NumeroPagina - 1) * request.Cantidad).Take(request.Cantidad)
+		 .OrderBy(x => x.Nombre)
+		 .ToList();
+
+	 return res;
+ }
+ */
 
 		public async Task<List<Producto>> GetAllWithDetails()
 		{

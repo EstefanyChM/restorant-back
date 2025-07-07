@@ -10,6 +10,10 @@ namespace Repository
 {
 	public class OnlineUserRepository : CRUDRepository<OnlineUser>, IOnlineUserRepository
 	{
+		public OnlineUserRepository(_dbRiccosContext _DbRiccosContext) : base(_DbRiccosContext)
+		{
+		}
+
 		public GenericFilterResponse<OnlineUser> GetByFilter(GenericFilterRequest request)
 		{
 			throw new NotImplementedException();
@@ -19,7 +23,7 @@ namespace Repository
 		{
 			OnlineUser onlineUser = await dbSet
 				.Include(x => x.IdClienteNavigation)
-				.ThenInclude( x => x.IdTablaPersonaNaturalNavigation)
+				.ThenInclude(x => x.IdTablaPersonaNaturalNavigation)
 				.FirstOrDefaultAsync(x => x.Id == id)
 				;
 			return onlineUser;
@@ -28,7 +32,7 @@ namespace Repository
 		public async Task<OnlineUser> ObtenerOnlineClient(string IdApplicationUser)
 		{
 			OnlineUser onlineUser = await dbSet
-                .FirstOrDefaultAsync(ou => ou.IdApplicationUser == IdApplicationUser);
+				.FirstOrDefaultAsync(ou => ou.IdApplicationUser == IdApplicationUser);
 			return onlineUser;
 		}
 	}
